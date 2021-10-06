@@ -2,6 +2,8 @@ a = [1, 2, 3, 8, 4, 5, 6, 7, 9, 10]
 i = 4
 j = 9
 num = 8
+
+#Trying to sort an array which is almost sorted except for one misplaced element using the fewest number of comparisons
 def binary_search(num, i, j):
     while i != j:
         m = (i + j)//2

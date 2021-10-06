@@ -7,6 +7,7 @@ tempI = 0
 
 arr = [-2, -4, -1, -2, -7, -3, -4, -8, -4, -2]
 
+#Finds the maximum continous sum of an array in linear time along with the start and end index
 for i, x in enumerate(arr):
     if sumOfNumbers + x < 0:
         tempI = i+1

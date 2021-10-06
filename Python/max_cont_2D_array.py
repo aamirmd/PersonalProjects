@@ -10,7 +10,8 @@ arr = [[1, -1, 0, 0, -4],
 #arr = [[0, 10, 0], [-1, 0, 100], [10, -100, 10]]
 n = arr[0].__len__()
 m = arr.__len__()
-"""
+
+#Finds the maximum continous 2D sum of a torus
 for i in range(0, m):
     for a in range(0, n):
         for j in range(i, m+i-1):
@@ -18,10 +19,9 @@ for i in range(0, m):
                 s = 0
                 for k in range(i, j+1):
                     for c in range(a, b+1):
-                        print(k % 3, c % 5)
                         s += arr[k % 5][c % 5]
                 maximum = max(maximum, s)
-"""
+
 
 
 
