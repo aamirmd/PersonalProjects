@@ -1,3 +1,5 @@
+package towerStuff;
+
 public class Disc implements Comparable<Disc>{
 	
 	private int size;

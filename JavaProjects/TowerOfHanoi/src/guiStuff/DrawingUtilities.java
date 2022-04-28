@@ -1,4 +1,8 @@
+package guiStuff;
+
 import java.awt.Graphics;
+
+import towerStuff.*;
 
 /*Contains static methods to help in drawing the towers of hanoi*/
 
